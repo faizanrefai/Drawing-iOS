@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+{
+    CGPoint point;
+    UIImageView *image;
+    BOOL mouseSwiped;
+    int mouseMoved;
+}
+@property (strong, nonatomic)IBOutlet UIImageView *image;
 @end
